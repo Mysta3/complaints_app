@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Complaints App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>WHERE CAN WE CAUSE TROUBLE TODAY?</h1>
+    </header>
+
+    <input class="input" placeholder="# of complaints" type="number" />
+
+    <button data-borough="BROOKLYN" class="brooklyn-btn" type="submit">
+      BROOKLYN
+    </button>
+    <button data-borough="MANHATTAN" class="manhattan-btn" type="submit">
+      MANHATTAN
+    </button>
+    <button data-borough="QUEENS" class="queens-btn" type="submit">
+      QUEENS
+    </button>
+    <button data-borough="bronx" class="bronx-btn" type="submit">BRONX</button>
+    <button
+      data-borough="STATEN ISLAND"
+      class="staten-island-btn"
+      type="submit"
+    >
+      STATEN ISLAND
+    </button>
+
+    <ul class="complaintsList"></ul>
+
+    <script src="script.js"></script>
+  </body>
+</html>
